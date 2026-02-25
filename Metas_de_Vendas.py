@@ -3,7 +3,7 @@ import glob
 import matplotlib.pyplot as plt
 
 # Coletar dados de vendedores e vendas
-arquivos = glob.glob("*.xlsx")
+arquivos = glob.glob("planilhas/*.xlsx")
 df_geral = pd.concat([pd.read_excel(f) for f in arquivos], ignore_index=True)
 
 # Filtrar quem bateu a meta
