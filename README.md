@@ -15,5 +15,5 @@
 -Manipulação de dados
 -Tornar números em gráficos para melhor visualização(Data Viz)
 -Automação de processos utilizando python 
-##
+## Resultado final em gráfico 
 ![Gráfico de Vendas](grafico_vendas.png)
